@@ -29,10 +29,16 @@ h1{
     width: 17%;
 }
 
+
+/***********************************/
+/*            NAVBAR              */
+/*********************************/
+
 .navbar{
     background-color: #242424;
     width: 100%;
     overflow: auto;
+
 }
 
 
@@ -60,18 +66,29 @@ h1{
     position: relative;
     min-width: 100vw;
     min-height: 70vh;
+    background-color:black;
+    z-index: -1;
 }
 
 #videoHeader{
-    position: absolute;
+    position: fixed;
     min-width: 1650px;
+    opacity: 0.7;
     height: auto;
-    top: -50%;
+    top: -250px;
+    z-index: -2;
 }
 
 
+/***********************************/
+/*          SECTION-START         */
+/*********************************/
+
 .section-start{
     position: relative;
+    height: auto;
+    background: #f0f0f0;
+    padding-bottom: 300px;
 }
 
 .intro-boxes{
@@ -133,9 +150,13 @@ h1{
     color: #4a4a4a;
 }
 
+
+/***********************************/
+/*          SECTION-FACT          */
+/*********************************/
+
 .section-fact{
     padding-top: 50px;
-    margin-top: 300px;
     width: 100%;
     background-color: white;
 }
@@ -153,3 +174,38 @@ h1{
 }
 
 
+/***********************************/
+/*          SECTION-FOODS         */
+/*********************************/
+
+.section-foods{
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.foods{
+    width: 100%;
+    height: auto;
+}
+
+.foods li{
+    display: block;
+    float: left;
+    list-style: none;
+}
+
+
+.foods .img-big{
+    width: 66%;
+}
+
+.foods .img-small{
+    width: 33%;
+}
+
+.foods img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.06);
+}
