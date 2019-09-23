@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="animate.css">
     <title>Document</title>
 </head>
 <body>
@@ -28,20 +29,20 @@
     <section class="section-start">
         <div class="row">
             <div class="intro-boxes">
-                <div class="box-intro">
+                <div class="box-intro js-intro-box">
                     <div class="del1"><img src="mountain_icon.png" alt=""></div>
                     <div class="del2">
                         <h3>Mountain</h3>
                         <p>Norway is normally perceived as a mountainous country.</p></div>
                 </div>
-                <div class="box-intro">
+                <div class="box-intro js-intro-box">
                     <div class="del1"><img src="ski_icon.png" alt=""></div>
                     <div class="del2">
                         <h3>Skiing</h3>
                         <p>Norwegians' relationship with skiing is shaped by tradition and history.</p>
                     </div>
                 </div>
-                <div class="box-intro">
+                <div class="box-intro js-intro-box">
                     <div class="del1"><img src="waterfall_icon.png" alt=""></div>
                     <div class="del2">
                         <h3>Waterfall</h3>
@@ -107,9 +108,9 @@
         </div>
     </section>
 
-    <section class="section-mapOfNorwat">
+    <section class="section-mapOfNorway">
         <div class="norway-map">
-            <div class="box-map map-text">
+            <div class="box-map map-text js-map-text">
             
             <h1>Where is Norway?</h1>
              <p>
@@ -131,7 +132,7 @@
              </p>
             </div>
 
-            <div class="box-map">
+            <div class="box-map js-map-img">
                 <img src="map-norway.jpg" alt="">
             </div>
         </div>
@@ -150,11 +151,14 @@
         </div>
         <div class="town4 boxTown">
             Stavanger
+            
         </div>
 
     </section>
         
-    
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="jquery.waypoints.min.js"></script>  
+    <script src="script.js"></script>    
+
 </body>
 </html>

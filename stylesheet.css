@@ -221,10 +221,10 @@ h1{
 }
 
 /***********************************/
-/*          SECTION-???         */
+/*          SECTION-MAP           */
 /*********************************/
 
-.section-test{
+.section-mapOfNorway{
     background-color: #f0f0f0;;
     width: 100%;
 }
@@ -268,10 +268,14 @@ h1{
 
 }
 
+
+/***********************************/
+/*          SECTION-TOWN          */
+/*********************************/
 .section-town{
     width: 100%;
     background-color: #FFFFFF;
-
+    height: 1000px;
 }
 
 
