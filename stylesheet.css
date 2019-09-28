@@ -19,14 +19,22 @@ body{
 
 
 h1{
-    border-bottom: 2px solid #b6d5e3;
     text-align: center;
     font-size: 30px;
     letter-spacing: 3px;
     padding-bottom: 20px;
     margin: 0 auto;
-    margin-bottom: 50px;
-    width: 17%;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+h1::after {
+    display: block;
+    content: "";
+    width: 100px;
+    padding-top: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #b6d5e3;
 }
 
 
@@ -40,7 +48,6 @@ h1{
     overflow: auto;
 
 }
-
 
 .navbar li{
     list-style: none;
@@ -273,9 +280,25 @@ h1{
 /*          SECTION-TOWN          */
 /*********************************/
 .section-town{
+    padding-top: 50px;
     width: 100%;
+    height: auto;
     background-color: #FFFFFF;
-    height: 1000px;
+}
+
+.towns{
+    width: 76%;
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    padding-bottom: 50px;
+}
+
+.boxTown{
+    float:left; 
+    width: 300px;
+    border: 1px solid red;
+    text-align: center;
 }
 
 
